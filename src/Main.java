@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Timer tester = new Timer(100000);
+
+        System.out.println(tester.testAll());
     }
 }
